@@ -16,3 +16,6 @@ print(data.iloc[:, 0])  # Accede a la primera columna (índice 0)
 print(data.iloc[0:2, 1])  # Accede a filas 0 y 1 de la columna 1
 
 #In this case `df.iloc[0:1000]` will return 1000 entries, while `df.loc[0:1000]` return 1001 of them! To get 1000 elements using `loc`, you will need to go one lower and ask for `df.iloc[0:999]`. 
+
+#groupby() created a group of reviews which allotted the same point values to the given wines. Then, for each of these groups, we grabbed the points() column and counted how many times it appeared. value_counts() is just a shortcut to this groupby() operation.
+

@@ -20,3 +20,4 @@ print(data.iloc[0:2, 1])  # Accede a filas 0 y 1 de la columna 1
 #groupby() created a group of reviews which allotted the same point values to the given wines. Then, for each of these groups, we grabbed the points() column and counted how many times it appeared. value_counts() is just a shortcut to this groupby() operation.
 
 #df.groupby('column1')['column2'].value_counts()
+#df.groupby('column1')['column2'].value_counts().unstack().fillna(0)

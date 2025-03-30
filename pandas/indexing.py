@@ -22,4 +22,4 @@ print(data.iloc[0:2, 1])  # Accede a filas 0 y 1 de la columna 1
 #df.groupby('column1')['column2'].value_counts()
 #df.groupby('column1')['column2'].value_counts().unstack().fillna(0)
 
-#
+#example of serie: serie = pd.Series([1, 2, 3], index=['a', 'b', 'c'])
